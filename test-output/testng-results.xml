@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T17:09:54 EET" name="Default suite" finished-at="2024-01-31T17:10:00 EET" duration-ms="6284">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T17:09:54 EET" name="Default test" finished-at="2024-01-31T17:10:00 EET" duration-ms="6284">
+      <class name="AlmosaferProject.MyTestCases">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:54 EET" name="mySetup" finished-at="2024-01-31T17:09:58 EET" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="CheckTheDeafultLanguageIsEnglish()[pri:1, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:58 EET" name="CheckTheDeafultLanguageIsEnglish" finished-at="2024-01-31T17:09:59 EET" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheDeafultLanguageIsEnglish -->
+        <test-method signature="CheckTheDefaultCurrencyIsSAR()[pri:2, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:59 EET" name="CheckTheDefaultCurrencyIsSAR" finished-at="2024-01-31T17:09:59 EET" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheDefaultCurrencyIsSAR -->
+        <test-method signature="CheckContactNumber()[pri:3, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:59 EET" name="CheckContactNumber" finished-at="2024-01-31T17:09:59 EET" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckContactNumber -->
+        <test-method signature="CheckQitafLogo()[pri:4, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:59 EET" name="CheckQitafLogo" finished-at="2024-01-31T17:09:59 EET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQitafLogo -->
+        <test-method signature="CheckHotelTabIsNotSelectedByDefault()[pri:5, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:59 EET" name="CheckHotelTabIsNotSelectedByDefault" finished-at="2024-01-31T17:09:59 EET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHotelTabIsNotSelectedByDefault -->
+        <test-method signature="RandomMethodToChangeTheLanguage()[pri:7, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:09:59 EET" name="RandomMethodToChangeTheLanguage" finished-at="2024-01-31T17:10:00 EET" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomMethodToChangeTheLanguage -->
+        <test-method is-config="true" signature="myPostTest()[pri:0, instance:AlmosaferProject.MyTestCases@2bef51f2]" started-at="2024-01-31T17:10:00 EET" name="myPostTest" finished-at="2024-01-31T17:10:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myPostTest -->
+      </class> <!-- AlmosaferProject.MyTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
