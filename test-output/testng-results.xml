@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-03T17:36:04 EET" name="Default suite" finished-at="2024-02-03T17:36:14 EET" duration-ms="10013">
+  <suite started-at="2024-02-05T15:23:32 EET" name="Default suite" finished-at="2024-02-05T15:24:16 EET" duration-ms="44483">
     <groups>
     </groups>
-    <test started-at="2024-02-03T17:36:04 EET" name="Default test" finished-at="2024-02-03T17:36:14 EET" duration-ms="10013">
+    <test started-at="2024-02-05T15:23:32 EET" name="Default test" finished-at="2024-02-05T15:24:16 EET" duration-ms="44483">
       <class name="AlmosaferProject.MyTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:AlmosaferProject.MyTestCases@3234f74e]" started-at="2024-02-03T17:36:04 EET" name="mySetup" finished-at="2024-02-03T17:36:08 EET" duration-ms="4402" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:23:32 EET" name="mySetup" finished-at="2024-02-05T15:23:46 EET" duration-ms="14189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="RandomMethodToChangeTheLanguage()[pri:7, instance:AlmosaferProject.MyTestCases@3234f74e]" started-at="2024-02-03T17:36:08 EET" name="RandomMethodToChangeTheLanguage" finished-at="2024-02-03T17:36:09 EET" duration-ms="807" status="PASS">
+        <test-method signature="RandomMethodToChangeTheLanguage()[pri:7, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:23:46 EET" name="RandomMethodToChangeTheLanguage" finished-at="2024-02-05T15:23:47 EET" duration-ms="1691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RandomMethodToChangeTheLanguage -->
-        <test-method signature="SwitchToHotelTab()[pri:8, instance:AlmosaferProject.MyTestCases@3234f74e]" started-at="2024-02-03T17:36:09 EET" name="SwitchToHotelTab" finished-at="2024-02-03T17:36:10 EET" duration-ms="706" status="PASS">
+        <test-method signature="SwitchToHotelTab()[pri:8, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:23:47 EET" name="SwitchToHotelTab" finished-at="2024-02-05T15:23:48 EET" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwitchToHotelTab -->
-        <test-method signature="SelectRoomRandomly()[pri:9, instance:AlmosaferProject.MyTestCases@3234f74e]" started-at="2024-02-03T17:36:10 EET" name="SelectRoomRandomly" finished-at="2024-02-03T17:36:14 EET" duration-ms="4052" status="PASS">
+        <test-method signature="SelectRoomRandomly()[pri:9, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:23:48 EET" name="SelectRoomRandomly" finished-at="2024-02-05T15:23:55 EET" duration-ms="6829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectRoomRandomly -->
-        <test-method is-config="true" signature="myPostTest()[pri:0, instance:AlmosaferProject.MyTestCases@3234f74e]" started-at="2024-02-03T17:36:14 EET" name="myPostTest" finished-at="2024-02-03T17:36:14 EET" duration-ms="0" status="PASS">
+        <test-method signature="PageLoaded()[pri:10, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:23:55 EET" name="PageLoaded" finished-at="2024-02-05T15:24:15 EET" duration-ms="20051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageLoaded -->
+        <test-method signature="PriceSort()[pri:11, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:24:15 EET" name="PriceSort" finished-at="2024-02-05T15:24:16 EET" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceSort -->
+        <test-method is-config="true" signature="myPostTest()[pri:0, instance:AlmosaferProject.MyTestCases@275fe372]" started-at="2024-02-05T15:24:16 EET" name="myPostTest" finished-at="2024-02-05T15:24:16 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myPostTest -->

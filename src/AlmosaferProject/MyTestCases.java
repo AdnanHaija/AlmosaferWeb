@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Random;
 
 import org.openqa.selenium.By;
@@ -145,12 +146,12 @@ public class MyTestCases extends Parameters {
 		} else {
 			Selctor.selectByVisibleText("1 Room, 1 Adult, 0 Children");
 		}
-		
+
 		driver.findElement(By.className("btwWVk")).click();
 	}
 
-	@Test (priority = 10)
-	public void PageLoaded () throws InterruptedException {
+	@Test(priority = 10)
+	public void PageLoaded() throws InterruptedException {
 		Thread.sleep(20000);
 		String SearchResult = driver.findElement(By.className("sc-kAKrxA")).getText();
 		if (driver.getCurrentUrl().contains("ar")) {
@@ -160,16 +161,29 @@ public class MyTestCases extends Parameters {
 			boolean ActualResult = SearchResult.contains("found");
 			assertEquals(ActualResult, true);
 		}
-			
+
 	}
-	
-	@Test (priority = 11)
-	public void PriceSort () {
-		driver.findElement(By.className("sc-csuNZv")).click();;
-		WebElement PriceValue = driver.findElement(By.cssSelector(".sc-htpNat.KtFsv.col-9"));
-		PriceValue.findElements(By.className("Price__Value"));
+
+	@Test(priority = 11)
+	public void PriceSort() {
+		WebElement LowestPriceButton = driver.findElement(By.className("sc-csuNZv"));
+		LowestPriceButton.click();
+		WebElement HotelContainer = driver.findElement(By.cssSelector(".sc-htpNat.KtFsv.col-9"));
+		List<WebElement> PricesList = HotelContainer.findElements(By.className("Price__Value"));
+		System.out.println("this is the total price" + PricesList.size());
+		String LowestPrice = PricesList.get(0).getText();
+		int LowestPriceAsNum = Integer.parseInt(LowestPrice);
+
+		String HighstPrice = PricesList.get(PricesList.size() - 1).getText();
+		int HighstPriceAsNum = Integer.parseInt(HighstPrice);
+
+		System.out.println("this is minimum price" + LowestPrice);
+		System.out.println("this is maximum price" + HighstPrice);
+
+		assertEquals(HighstPriceAsNum > LowestPriceAsNum, true);
+
 	}
-	
+
 	@AfterTest
 	public void myPostTest() {
 	}

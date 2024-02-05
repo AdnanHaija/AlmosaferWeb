@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-308483929\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--1207939438\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AlmosaferProject.MyTestCases" class="method navigator-link" hash-for-method="PageLoaded">PageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AlmosaferProject.MyTestCases" class="method navigator-link" hash-for-method="PriceSort">PriceSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="AlmosaferProject.MyTestCases" class="method navigator-link" hash-for-method="RandomMethodToChangeTheLanguage">RandomMethodToChangeTheLanguage</a> <!-- method navigator-link -->
@@ -137,6 +147,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="PageLoaded">
+                  </a> <!-- PageLoaded -->
+                  <span class="method-name">PageLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PriceSort">
+                  </a> <!-- PriceSort -->
+                  <span class="method-name">PriceSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="RandomMethodToChangeTheLanguage">
                   </a> <!-- RandomMethodToChangeTheLanguage -->
                   <span class="method-name">RandomMethodToChangeTheLanguage</span>
@@ -161,7 +185,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-308483929\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--1207939438\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,24 +234,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SelectRoomRandomly')
+data.setCell(0, 1, 'PageLoaded')
 data.setCell(0, 2, 'AlmosaferProject.MyTestCases')
-data.setCell(0, 3, 4052);
+data.setCell(0, 3, 20051);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'RandomMethodToChangeTheLanguage')
+data.setCell(1, 1, 'SelectRoomRandomly')
 data.setCell(1, 2, 'AlmosaferProject.MyTestCases')
-data.setCell(1, 3, 807);
+data.setCell(1, 3, 6829);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SwitchToHotelTab')
+data.setCell(2, 1, 'RandomMethodToChangeTheLanguage')
 data.setCell(2, 2, 'AlmosaferProject.MyTestCases')
-data.setCell(2, 3, 706);
+data.setCell(2, 3, 1691);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SwitchToHotelTab')
+data.setCell(3, 2, 'AlmosaferProject.MyTestCases')
+data.setCell(3, 3, 849);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PriceSort')
+data.setCell(4, 2, 'AlmosaferProject.MyTestCases')
+data.setCell(4, 3, 820);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -277,19 +309,27 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">RandomMethodToChangeTheLanguage</span>
-                <span class="method-start">4429 ms</span>
+                <span class="method-start">14220 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SwitchToHotelTab</span>
-                <span class="method-start">5239 ms</span>
+                <span class="method-start">15916 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SelectRoomRandomly</span>
-                <span class="method-start">5949 ms</span>
+                <span class="method-start">16771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageLoaded</span>
+                <span class="method-start">23602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PriceSort</span>
+                <span class="method-start">43654 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">myPostTest</span>
-                <span class="method-start">10007 ms</span>
+                <span class="method-start">44477 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
